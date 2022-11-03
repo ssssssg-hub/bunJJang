@@ -1,0 +1,101 @@
+.prdListContainer {
+  box-sizing: border-box;
+}
+.qrContainer {
+  width: 100%;
+}
+.prdListContainer .todayRec {
+  max-width: 1024px;
+  display: grid;
+  justify-content: left;
+  position: relative;
+  margin: auto;
+}
+.prdListContainer .todayRec .title {
+  font-size: 24px;
+  margin: 50px 0px 20px 0px;
+  color: #212121;
+}
+
+.qrContainer .bunjangImg {
+  display: flex;
+  align-items: center;
+  width: 1023px;
+  height: 300px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.qrContainer .bunjangQR {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1023px;
+  height: auto;
+  position: relative;
+  margin: auto;
+}
+
+.prdContent {
+  max-width: 1024px;
+  display: grid;
+  margin: 0px 260px 0px 260px;
+  grid-template-columns: repeat(5, 194px);
+  justify-content: space-between;
+  position: relative;
+  margin: auto;
+}
+.item {
+  border: 1px solid rgb(238, 238, 238);
+  margin-bottom: 11px;
+}
+.item .thumb {
+  width: 100%;
+  height: 194px;
+}
+
+.item .thumb img {
+  width: 100%;
+}
+
+.item .prdInfo {
+  padding: 15px 10px;
+  height: 50px;
+}
+
+.item .prdInfo .prdTitle {
+  color: #212121;
+  font-size: 14px;
+  width: 100%;
+  padding-bottom: 20px;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.item .prdInfo div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item .prdInfo div .time {
+  color: rgb(136, 136, 136);
+  font-size: 12px;
+}
+.item .prdInfo .price {
+  font-size: 16px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 1;
+}
+.item .prdInfo .price span {
+  font-size: 13px;
+  margin-right: 3px;
+}
+
+.item .prdInfo .price .time {
+  float: right;
+  opacity: 0.5;
+}

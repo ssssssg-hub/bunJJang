@@ -1,0 +1,121 @@
+
+.wrap-login {
+  padding: auto;
+  margin: 200px auto auto auto;
+  max-width: 420px;
+  min-height: 506px;
+
+  background-color: whitesmoke;
+}
+.wrapModal {
+  padding: auto;
+  margin: 200px auto auto auto;
+  max-width: 420px;
+  height: 566px;
+  background-color: whitesmoke;
+}
+.wrap-top {
+  padding: 30px 20px 10px 20px;
+}
+.logo {
+  text-align: center;
+}
+
+.logo-wrap {
+  display: flex;
+}
+
+.logo-button {
+  border: none;
+}
+.form-box {
+  padding: 1px 0px 0px 0px;
+  border-radius: 10px;
+  margin: 30px 10px 10px 10px;
+
+  background-color: #d9d9d9;
+
+  text-align: center;
+  height: 200px;
+}
+.form-boxModal {
+  padding: 1px 0px 0px 0px;
+  border-radius: 10px;
+  margin: 30px 10px 10px 10px;
+
+  background-color: #d9d9d9;
+
+  text-align: center;
+  height: 260px;
+}
+.input-box {
+  margin: 17px 30px;
+  float: right;
+}
+.input-form {
+  border: none;
+  border-radius: 10px;
+  height: 35px;
+  width: 220px;
+}
+.button-container {
+  margin: auto;
+  display: flex;
+  width: 330px;
+  height: 35px;
+  justify-content: space-around;
+}
+.button-go {
+  background-color: #d80c18;
+  color: white;
+  width: 80px;
+  height: 32px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+.kakao {
+  background-image: url(https://developers.kakao.com/tool/resource/static/img/button/login/simple/ko/kakao_login_small.png);
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  height: 32px;
+  width: 60px;
+  border-radius: 5px;
+  border: 0;
+}
+.how-loginDiv {
+  display: flex;
+}
+.how-login {
+  display: flex;
+  padding-top: 9px;
+  font-size: small;
+}
+.button-text {
+
+  all: unset;
+
+  font-size: small;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+.wrap-bottom {
+  text-align: center;
+}
+.reference {
+  font-size: small;
+  color: gray;
+}
+.modal-background {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
